@@ -1,0 +1,17 @@
+{
+  "name": "03.lookup-char",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "lookup-char.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3"
+  }
+}
