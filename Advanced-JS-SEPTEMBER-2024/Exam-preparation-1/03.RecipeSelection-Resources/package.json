@@ -1,0 +1,13 @@
+{
+  "name": "03.recipeselection-resources",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "recipeSelection.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
