@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./static/css/style.css" />
+    <title>Bon Voyage!</title>
+  </head>
+
+  <body>
+    <section id="welcome">
+      <h1>Bon Voyage!</h1>
+      <div class="home-container">
+        <div class="info">
+          <h1>Vacation Schedule</h1>
+        </div>
+      </div>
+    </section>
+
+    <div id="wrapper">
+      <section id="schedule-vacation">
+        <div class="wrapper">
+          <h1>Vacation Schedule</h1>
+
+          <div class="container-text">
+            <form action="">
+              <label for="first-name">First name:</label>
+              <input type="text" id="first-name" name="first-name" value="test"/>
+
+              <label for="last-name">Last name:</label>
+              <input type="text" id="last-name" name="last-name" value="test test"/>
+
+              <label for="from-date">From Date:</label>
+              <input type="date" id="from-date" name="from-date" />
+
+              <label for="to-date">To Date:</label>
+              <input type="date" id="to-date" name="to-date" />
+
+              <button id="next-btn" type="submit">Next</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="info-vacations">
+        <div class="vacations-info-container">
+          <div class="wrapper">
+            <h1>Vacation info</h1>
+            <ul class="info-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="confirm-vacations">
+        <div class="confirm-container">
+          <div class="wrapper">
+            <h1>Confirm Vacation</h1>
+            <ul class="confirm-list"></ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section id="complete-vacation">
+      <div>
+        <a id="ok">
+          <h1 id="status"></h1>
+        </a>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

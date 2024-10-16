@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    place-items: center;
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0; 
+    height: 100vh;
+}
+
+#wrapper {
+    justify-content: center;
+    margin: 2.35rem 0 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#welcome {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.328);
+}
+#welcome>h1 {
+    text-align: center;
+    font-family: 'Passions Conflict', cursive;
+    font-size: 5.5rem;
+    letter-spacing: 0.1rem;
+    background: rgb(107,247,255);
+    background: linear-gradient(180deg, rgba(107,247,255,1) 23%, rgba(103,241,253,1) 25%, rgba(24,135,212,1) 84%);
+    color: transparent;
+    background-clip: text;
+-webkit-background-clip: text;
+text-shadow: 2px 2px rgba(0, 0, 255, 0.176);
+}
+
+.home-container {
+    margin: 0px auto 4px 0;
+    height:1rem;
+    display: flex;
+    top: 0%;
+    left: 50%;
+    text-align: center;
+}
+
+.info {
+    justify-items: legacy;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+    margin-top: 10rem;
+    
+}
+
+.info>h1 {
+    font-size: 2rem;
+    margin: -10.5rem 0 0px;
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0;
+    letter-spacing: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(230, 199, 2);
+   text-shadow: 1px 1px black;
+}
+
+.wrapper {
+    width: 25vw;
+    height: 42vh;
+    margin: 30px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    background-image: url(../img/belt.png);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.95;
+    align-items:center;
+    justify-content:baseline;
+    flex-direction: column;
+    
+}
+
+.wrapper > h1 {
+  background-color: rgb(255, 0, 0);
+  margin-top: -41px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 5px 15px;
+  box-shadow: rgba(221, 255, 0, 0.934) 0px -50px 36px -28px inset;
+  width: 20vw;
+  text-align: center;
+  color: rgb(222, 212, 193);
+  text-shadow: 1px 1px black;
+  
+}
+.container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container-text> form {
+    padding: 1rem;
+}
+
+.container-text> form > input {
+    width: 13rem;
+    height: 1.5rem;
+    border-radius: 5px;
+
+}
+#complete-vacation {
+    width: 40vw;
+    height: 12vh;
+    margin:40px auto;
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+label {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #1A2250;
+}
+
+#next-btn {
+    display: block;
+    margin-top: 0.6rem;
+    width: 13rem;
+    border-radius: 5px;
+    background-color: rgb(231, 231, 212);
+    font-size:large;
+    font-weight: 700;
+ 
+}
+#next-btn:disabled {
+    cursor:not-allowed;
+}
+
+li {
+    list-style-type: none;
+}
+
+li > article {
+    margin-top: 3rem;
+    width: 23vw;
+    height: 20vh;
+    padding: 0.3rem;
+    border-radius: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.829);
+   text-wrap: wrap;
+}
+
+article> h3,p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.1rem 0.6rem;
+    font-family: 'Alkalami', serif;
+   text-align: center;
+}
+
+.edit-btn, .continue-btn, .confirm-btn, .cancel-btn {
+    margin: 2.6rem 1rem ;
+    width: 6.5rem;
+    border-radius: 5px;
+    background-color: rgb(236, 236, 211);
+    font-size:large;
+    font-weight: 700;
+    cursor: pointer;
+}
+.vacation-confirmed {
+    color: green;
+    text-align: center;
+    background-color: rgb(163, 244, 163);
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 5px solid green;
+}
+.vacation-cancelled {
+    color: red;
+    text-align: center;
+    background-color: rgb(242, 156, 156);
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 5px solid rgb(255, 0, 0);
+}
+
+#ok {
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    #wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper{
+        width: 70vh;
+        height: 60vh;
+    }
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    li article {
+        width: 90vw;
+    }
+}
