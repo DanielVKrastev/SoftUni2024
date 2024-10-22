@@ -1,0 +1,20 @@
+{
+  "name": "03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "streamingServiceSelector.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3"
+  }
+}
