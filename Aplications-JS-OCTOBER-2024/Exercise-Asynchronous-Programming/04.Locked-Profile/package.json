@@ -1,0 +1,23 @@
+{
+  "name": "04.locked-profile",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha tests",
+    "start": "http-server -a localhost -p 3000 -P http://localhost:3000? -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "http-server": "0.12.3",
+    "mocha": "^8.3.2",
+    "playwright-chromium": "1.9.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "description": ""
+}
