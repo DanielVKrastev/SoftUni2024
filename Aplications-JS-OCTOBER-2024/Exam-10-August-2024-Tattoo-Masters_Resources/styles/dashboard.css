@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+#tattoos {
+  display: flex;
+  align-items:center;
+  justify-content:center ;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+ h2 {
+  text-align: center;
+  font-size: 50px;
+  color:#d2b4e4;
+  text-shadow:
+  0 0 5px #040404,
+  0 0 10px #000000,
+  0 0 18px #fff,
+  0 0 38px#B026FF,
+  0 0 73px#B026FF,
+  0 0 30px#B026FF,
+  0 0 4px#B026FF,
+  0 0 40px#B026FF;
+  margin-top: 5px;
+  letter-spacing: 5px;
+}
+
+#no-tattoo{
+  margin-top: 20px;
+}
+h3{
+  font-size: 20px;
+  font-family: "Jaro", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 18vw;
+  text-align: center;
+}
+
+.tattoo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 20vw;
+  height: 65vh;
+  padding-bottom: 1rem;
+  margin: 10px auto;
+  background: rgb(253,103,242);
+  background: linear-gradient(172deg, rgba(253,103,242,1) 25%, rgba(226,23,34,1) 84%);
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border: 5px solid black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+.tattoo span {
+  color: rgb(238, 237, 230);
+  margin-bottom: 10px;
+}
+
+.tattoo img {
+width: 16vw;
+height: 35vh;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: 5px;
+border: 2px solid black;
+}
+.tattoo-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 12vw;
+}
+
+.tattoo .type {
+  color: rgb(213, 212, 206);
+  text-shadow: 1px 1px rgb(0, 0, 0);
+
+}
+
+.details-btn {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 14px;
+  text-decoration: none;
+  font-size: 21px;
+  width: 160px;
+  font-weight: 600;
+  border-radius: 3px;
+  text-align: center;
+  color: rgb(220, 218, 209);
+  background: rgb(129, 16, 121);
+  text-shadow: 1px 1px black;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+.details-btn:hover {
+  background: #e0c915;
+  color: #3f1955;
+  text-shadow: none;
+}
+.tattoo p {
+ width: 18vw;
+  font-size: 18px;
+font-weight: 800;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgb(62, 62, 61);
+  margin: 0;
+}
+
+@media (max-width: 1000px) {
+  h2 {
+    font-size: 25px; 
+  }
+
+  .tattoo {
+    width: 40%; 
+  }
+
+  .tattoo-info {
+    width: 40%;
+  }
+
+  .details-btn {
+    font-size: 12px; 
+    width: 50px;
+  }
+
+  .tattoo p {
+    font-size: 9px; 
+  }
+
+  .tattoo img {
+    height:25vh;
+  }
+}
+
+.user-type{
+  font-family: 'Courier New', Courier, monospace;
+}

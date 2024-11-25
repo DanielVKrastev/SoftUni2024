@@ -1,0 +1,114 @@
+#details-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(253,103,242);
+  background: linear-gradient(172deg, rgba(253,103,242,1) 25%, rgba(226,23,34,1) 84%);
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border: 5px solid black;
+  height: 85vh;
+  gap: 100px;
+  font-family: "Jaro", sans-serif;
+  font-size: 22px;
+  color: aliceblue;
+  text-shadow: 2px 2px black;
+}
+
+#details{
+  scale: 0.9;
+
+}
+#info-wrapper{
+  width: 40vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#details-wrapper img {
+  display: block;
+  height: 55vh;
+  width: 90vh;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  margin-left: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: 5px;
+border: 2px solid black;
+}
+
+#details-type{
+  font-size: 40px;
+}
+
+#action-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -125px;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+#action-buttons a {
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 21px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Jaro", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #020202;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  width: 20%;
+  padding: 5px;
+  border: 0;
+  color: #ded8d8;
+  cursor: pointer;
+  border: 3px solid black;
+  font-weight: 600;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+#action-buttons a:hover {
+  background: rgb(165, 153, 153);
+  color: #020202;
+}
+
+#details h3{
+  text-align: center;
+  letter-spacing: 6px;
+  color: rgb(224, 222, 210);
+  text-shadow: 3px 3px rgb(0, 0, 0);
+  }
+
+  @media (max-width: 1100px) {
+  #details-wrapper {
+    flex-direction: column;
+    height: 80vh;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+  }
+  #details-wrapper img{
+    height: 100px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  #details-type{
+    margin: 0;
+    font-size: 30px;
+  }
+
+  #info-wrapper{
+    height: 40vh;
+    width: 75vw;
+    justify-content: center;
+    align-items: center;
+  }
+}
